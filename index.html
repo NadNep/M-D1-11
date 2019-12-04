@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Modul D1.11</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- Подключаю CSS BootStrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Подключаю свои CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- HEADER -->
+        <header class="container">
+            <h1 class="headerSlogan">D1.11</h1>
+        </header>
+        <!-- MAIN -->
+        <main>
+			<div class="text">
+					<h2>Инструкция по заданию</h2>
+					<p>Подготовьте данные для авторизации в Trello, 
+                        вам понадобятся key, token и КОРОТКИЙ ID вашей доски
+                        </p>
+					<p style="color: rgb(10, 10, 10)">Получить короткий ID можно из адреса странички необходимой доски.</li>
+					<q>https://trello.com/b/<span style="color: red">КОРОТКИЙ_ID</span></q></p>
+					<br>
+					<h2>Варианты запуска программы:</h2>
+					<li>без параметров - программа выводит на экран колонки и задачи в них</li>
+					<li>с параметром "create имя колонка" - создаст задачу _имя_ в _колонке_</li>
+					<li>с параметром "move name имя колонка" - переместит задачу _имя_ в _колонка_, если задач несколько, предложит выбор</li>
+					<li>с параметром "listadd колонка" - создаст колонку _колонка_</li>
+				</div>
+				<div class="fail">
+					<li><a href="trello_dz.py" download="">Скачать файл с заданием</a></li>
+				</div>
+        </main>
+    </div>
+    <!-- Подключаю JS BootStrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Подключаю свои JS -->
+    <script type="text/javascript" src="script-1.js"></script>
+</body>
+</html>
